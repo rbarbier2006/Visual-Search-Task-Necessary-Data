@@ -42,7 +42,7 @@ if uploaded_file:
         st.download_button(
             label="Download Excel File",
             data=output.getvalue(),
-            file_name='results.xlsx',
+            file_name='VS results.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
 
