@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import io
 
-st.title("Response Time Analysis")
+st.title("Visual Search Task Response Time Analysis")
 
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
 
